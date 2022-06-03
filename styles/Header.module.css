@@ -1,0 +1,44 @@
+.dark {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    height: 4.5rem;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    list-style-type: none;
+    padding-bottom: 4rem;
+    color: #EEEEEE;
+}
+
+.button {
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.link {
+    color: #EEEEEE;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    color: #b0abbd;
+}

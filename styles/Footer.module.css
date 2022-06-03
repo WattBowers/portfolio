@@ -1,0 +1,19 @@
+.link {
+    margin-top: 2rem;
+}
+
+.image {
+    margin: .25rem;
+    margin-top: 1rem;
+    height: auto;
+    width: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    justify-content: center;
+}

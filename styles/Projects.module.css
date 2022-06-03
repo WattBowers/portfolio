@@ -1,0 +1,120 @@
+.container {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    width: 50%;
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 1rem;
+    border-width: .5rem;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    background-color: #CCCCCC;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+.pill {
+    background-color: white;
+    border-radius: 2rem;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
+
+.pill1 {
+    width: 20%;
+    float: left;
+    height: 5.5rem;
+    border-right: 1px solid black;
+}
+
+.pill2 {
+    width: 60%;
+    float: left;
+    height: 5.5rem;
+    border-right: 1px solid black;
+}
+
+.pill3 {
+    width: 20%;
+    height: 5.5rem;
+    float: left;
+}
+
+.recognizerbackground {
+    background-image: url('./Images/Facerecognizer-portfolio.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .butlerbackground {
+    background-image: url('./Images/boredom-butler.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .text {
+      margin: 1rem;
+      margin-bottom: 0rem;
+  }
+
+  .button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0!important;
+    cursor: pointer;
+    background-color: #ccdff2;
+    font-weight: bold;
+  }
+
+  .modalButton {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+  }
+
+  .modalButton:hover {
+        background: rgba(0,118,255,0.9);
+        box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+  }
+
+  .marginRight {
+      margin-right: 1rem;
+  }
+
+  .marginLeft {
+    margin-left: 1rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
