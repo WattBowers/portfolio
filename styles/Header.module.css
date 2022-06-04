@@ -10,10 +10,11 @@
     margin-left: auto;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    
 }
 
 .inline {
-    display: inline-block;
+    display: inline;
 }
 
 .list {
@@ -22,6 +23,7 @@
     list-style-type: none;
     padding-bottom: 4rem;
     color: #EEEEEE;
+    display: inline-block;
 }
 
 .button {
@@ -41,4 +43,11 @@
 
 .link:hover {
     color: #b0abbd;
+}
+
+.floatLeft {
+    position: absolute;
+    float: left;
+    width: 20%;
+    margin-top: 25px;
 }

@@ -11,7 +11,8 @@ export const Projects = () => {
 
   
     return (
-        
+      <div className={styles.grid}>
+        <div className={styles.popup}>Use the navbar up top to move around the website. There you will find more information about me and my work.</div>
         <div className={styles.container}>
         <h1 className={styles.title}>Face Finder</h1>
         <div className={styles.pill}>
@@ -34,9 +35,9 @@ export const Projects = () => {
                 content: {
                     margin: '0',
                     height: '400px',
-                    width: '40%',
+                    width: '700px',
                     position: 'absolute',
-                    left: '30.05%',
+                    left: '31.5%',
                     top: '25%'
                     
                 }
@@ -71,40 +72,43 @@ export const Projects = () => {
           </div>
           <div className={styles.pill3}>
           <button className={styles.button} onClick={() => setBoredomModal(true)}> More info</button>  
-            <ReactModal 
-            isOpen={boredomModal}
-            style={{
-                overlay: {
-                    backgroundColor: 'rgba(100, 100, 100, 0.4)'
+            <div className={styles.center}>         
+              <ReactModal 
+                isOpen={boredomModal}
+                style={{
+                  overlay: {
+                    backgroundColor: 'rgba(100, 100, 100, .4)'
                 },
                 content: {
                     margin: '0',
                     height: '400px',
-                    width: '40%',
+                    width: '700px',
                     position: 'absolute',
-                    left: '30.05%',
+                    left: '31.5%',
                     top: '25%'
                     
                 }
-            }}
-            >
-        <h3 className={styles.title}>The Boredom Butler</h3>
-        <p className={styles.padding}> 
-            This project is somehting that I built to hone my skills with react, and to get more aquainted with 
-            modern React syntax. My main focus when building this site was shifting from using Class based components
-            to to functional ones using Hooks. I also taught me a lot about using and editing SVG files to fit create 
-            well optimized experiances. I also find it to be a useful tool, and something I am planning on building upon to 
-            add functionality for different types of media, and a more fluent user expiriance. 
-            <br /><br />
-            The project is built using React, and the ImDb API.
-        </p>
-            <a className={styles.marginRight} target="_blank" href='https://the-boredom-butler.herokuapp.com/'><button className={styles.modalButton}>Live site</button></a>
-            <a target="_blank" href='https://github.com/WattBowers/Boredom-Butler'><button className={styles.modalButton}>Github Repo</button></a>
-            <button className={ `${ styles.marginLeft } ${ styles.modalButton }` } onClick={() => setBoredomModal(false)}> Close</button>
-            </ReactModal>
+                }}
+                >
+                <h3 className={styles.title}>The Boredom Butler</h3>
+                <p className={styles.padding}> 
+                  This project is somehting that I built to hone my skills with react, and to get more aquainted with 
+                  modern React syntax. My main focus when building this site was shifting from using Class based components
+                  to to functional ones using Hooks. I also taught me a lot about using and editing SVG files to fit create 
+                  well optimized experiances. I also find it to be a useful tool, and something I am planning on building upon to 
+                  add functionality for different types of media, and a more fluent user expiriance. 
+                  <br /><br />
+                  The project is built using React, and the ImDb API.
+                </p>
+                <a className={styles.marginRight} target="_blank" href='https://the-boredom-butler.herokuapp.com/'><button className={styles.modalButton}>Live site</button></a>
+                <a target="_blank" href='https://github.com/WattBowers/Boredom-Butler'><button className={styles.modalButton}>Github Repo</button></a>
+                <button className={ `${ styles.marginLeft } ${ styles.modalButton }` } onClick={() => setBoredomModal(false)}> Close</button>
+              </ReactModal>
+            </div>   
          </div>
         </div>
     </div>
+  </div>
   )
 }
 

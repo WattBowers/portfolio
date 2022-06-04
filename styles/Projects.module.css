@@ -1,22 +1,30 @@
+.grid {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    height: 65vh;
+}
 .container {
     margin: 0;
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    width: 50%;
-    display: inline-block;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 800px;
+    height: 475px;
     border-radius: .5rem;
     padding: 1rem;
     border-width: .5rem;
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
     background-color: #CCCCCC;
     backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
+    
 }
 
-.container:hover {
-    transform: scale(1.05);
+
+.center {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -46,6 +54,8 @@
     float: left;
     height: 5.5rem;
     border-right: 1px solid black;
+    display: grid;
+    align-items: center;
 }
 
 .pill3 {
@@ -72,7 +82,7 @@
 
   .text {
       margin: 1rem;
-      margin-bottom: 0rem;
+      
   }
 
   .button {
@@ -99,7 +109,7 @@
     font-weight: 400;
     font-size: 16px;
     box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
-    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+    transition: 0.2s ease,color 0.2s ease, box-shadow 0.2s ease;
   }
 
   .modalButton:hover {
@@ -118,3 +128,15 @@
 .padding {
     padding-bottom: 2rem;
 }
+
+.popup {
+    position: absolute;
+    right: 91rem;
+    background-color: #CCCCCC;
+    width: 20vw;
+    height: 500px;
+    opacity: 1;
+    border-radius: .5rem;
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,117 @@
+.container {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    width: 900px;
+    display: inline-block;
+    border-radius: .5rem;
+    padding: 1rem;
+    border-width: .5rem;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    background-color: #CCCCCC;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.main {
+    color: black;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.form {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fieldset {
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.legend {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.marginTop {
+    margin-top: 1rem;
+}
+
+.marginVertical {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.label {
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.input { 
+    padding: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+.textarea {
+    
+    resize: vertical;
+}
+
+.button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+  }
+
+  .button:hover {
+    background: rgba(0,118,255,0.9);
+    box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+.popup {
+    position: absolute;
+    right: 91rem;
+    background-color: #CCCCCC;
+    width: 20vw;
+    height: 500px;
+    opacity: 1;
+    border-radius: .5rem;
+    font-size: 1rem;
+  }
+
+  .grid {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    height: 65vh;
+}
