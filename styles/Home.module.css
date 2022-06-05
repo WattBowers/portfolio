@@ -1,9 +1,10 @@
 .profile {
   border-radius: 1%;
   border: 5px solid #062F5D;
-  width: 40%;
+  width: 35%;
   height: auto;
   user-select: none;
+  margin-top: 10px;
 }
 
 .home {
@@ -20,7 +21,7 @@
 }
 
 .medium {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #EEEEEE;
 }
 
@@ -32,7 +33,7 @@
   opacity: 1;
   border-radius: 1rem;
   font-size: 1rem;
-  
+  display: none;
 }
 
 .grid {

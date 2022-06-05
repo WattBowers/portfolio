@@ -132,8 +132,9 @@
 
 .popup {
     position: absolute;
-    right: 91rem;
-    background-color: #CCCCCC;
+    left: 10px;
+    top: 98px;
+    color: #CCCCCC;
     width: 20vw;
     height: 500px;
     opacity: 1;

@@ -48,7 +48,7 @@ export const Contact = () => {
 
     return (
       <div className={styles.grid}>
-        <div className={styles.popup}>Use the navbar up top to move around the website. There you will find more information about me and my work.</div>
+        <div className={styles.popup}>Feel free to send me a messgae if you have any inquaries. I will send you a response within one buisness day.</div>
           <div className={styles.container}>
             <main className={styles.main}>
               <form className={styles.form}>
