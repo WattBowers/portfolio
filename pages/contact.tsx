@@ -60,7 +60,7 @@ export const Contact = () => {
                   </div>
                   <div className={styles.marginVertical}>
                   <label  className={styles.label}>Message</label>
-                  <textarea onChange={messageChange} value={message} placeholder={'Feel free to send me a message about any inquiries.'} cols={65} rows={5} id="comment" name="comment" className={styles.textarea} aria-describedby="comment-desc"></textarea>
+                  <textarea onChange={messageChange} value={message} placeholder={'Feel free to send me a message about any inquiries.'} cols={55} rows={5} id="comment" name="comment" className={styles.textarea} aria-describedby="comment-desc"></textarea>
                   </div>
                   
                 </fieldset>

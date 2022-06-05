@@ -18,12 +18,14 @@ const router = useRouter()
         <meta name="description" content="A portfolio page build with Next.js and typescript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.popup}>Use the navbar up top to move around the website. There you will find more information about me and my work.</div>
+      <div className={styles.grid}>
       <img className={styles.profile} src={Profile.src}/>
       <div className={styles.home}>
         <h1 className={styles.huge}>Welcome </h1>
         <h1 className={styles.medium}> I'm Jackson and I'm a front end web developer </h1>
+        <div className={styles.popup}>Use the navbar up top to move around the website. There you will find more information about me and my work.</div>
       </div>
+    </div>
     </div>
   )
 }

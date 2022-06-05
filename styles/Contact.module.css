@@ -1,18 +1,16 @@
 .container {
-    margin: 0;
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    width: 900px;
-    display: inline-block;
+    margin-top: 25px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 800px;
+    height: 475px;
     border-radius: .5rem;
     padding: 1rem;
     border-width: .5rem;
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
     background-color: #CCCCCC;
     backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
 }
 
 .main {

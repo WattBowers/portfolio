@@ -5,7 +5,7 @@
     height: 65vh;
 }
 .container {
-    margin: 0;
+    margin-top: 25px;
     display: grid;
     align-content: center;
     justify-content: center;
@@ -30,6 +30,7 @@
 .title {
     border-bottom: 1px solid black;
     padding-bottom: 1rem;
+    margin-top: 0%;
 }
 
 .pill {

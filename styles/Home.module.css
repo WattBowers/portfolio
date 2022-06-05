@@ -3,87 +3,41 @@
   border: 5px solid #062F5D;
   width: 40%;
   height: auto;
-  margin-top: 14rem;
   user-select: none;
 }
 
 .home {
   float: right;
   width: 40%;
-  margin-right: 7%;
+  
 }
 
 .huge {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 900;
-  color: #EEEEEE;
+  color: #EEEEEE; 
+  
 }
 
 .medium {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #EEEEEE;
 }
 
 
 .popup {
   background-color: #CCCCCC;
-  width: 30vw;
+  width: 100%;
   height: 100px;
-  margin-top: 1.5vw;
   opacity: 1;
   border-radius: 1rem;
   font-size: 1rem;
-  position: absolute;
-  right: 65rem;
+  
 }
 
-@media only screen and (max-width:1024px) {
-  .popup {
-      display: none;
-  }
-}
-
-@media only screen and (max-width:1024px) {
-  .profile {
-    height: 200px;
-    width: auto;
-    float: none;
-    margin-top: 10%;
-  }
-  .huge {
-    font-size: 3rem;
-    float: none;
-    width: 100%;
-  }
-  .medium {
-    font-size: 2rem;
-    float: none;
-  }
-  .home {
-    float: none;
-    margin-left: 25%;
-    margin-right: 0%;
-  }
-}
-
-@media only screen and (max-width:425px) {
-  .profile {
-    height: 200px;
-    width: auto;
-    float: none;
-    margin-top: 10%;
-  }
-  .huge {
-    font-size: 2rem;
-    width: 100%;
-  }
-  .medium {
-    font-size: 2rem;
-    width: 100%;
-  }
-  .home {
-    float: none;
-    margin-left: 25%;
-  }
+.grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
