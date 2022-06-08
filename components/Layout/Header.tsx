@@ -3,11 +3,7 @@ import { useState, useEffect, useRef, MutableRefObject } from 'react'
 import { useRouter } from 'next/router';
 
 const Header = () => {
-
   
-
-
- 
   return (
     <div className={Styles.header}>
       <ul className={Styles.list}>
