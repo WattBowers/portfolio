@@ -8,17 +8,19 @@ import Css from '../pages/Images/Css.png';
 import Bootstrap from '../pages/Images/Bootstrap.png';
 import Sql from '../pages/Images/Sql.png';
 import Python from '../pages/Images/Python.png';
+import Git from '../pages/Images/Git.png';
 
 const skills = {
     React: React,
     Typescript: Typescript,
     Javascript: Javascript,
     Nextjs: Nextjs,
+    Python: Python,
     Html: HTML,
     Css: Css,
     Bootstap: Bootstrap,
-    Sql: Sql,
-    Python: Python
+    MySql: Sql,
+    Git: Git
 }
 
 const keys = Object.keys(skills)
@@ -27,13 +29,14 @@ const image = Object.values(skills);
 const SkillBox = () => {
     return(
         <div className={styles.logoContainer}>
-        {keys.map((element, i) => {
-           return <div className={styles.box}>
-                <div>{keys[i]}</div>
-                <img className={styles.logo} src={image[i].src} />
-            </div>
-        })
-    }
+            <h3 className={styles.title}>Technology Skills</h3>
+            {keys.map((element, i) => {
+               return <div className={styles.box}>
+                    <div>{keys[i]}</div>
+                    <img className={styles.logo} src={image[i].src} />
+                </div>
+                })
+            }
         </div>
         
     );

@@ -6,8 +6,10 @@ const Skills = () => {
 
 
     return (
-        <div className={styles.container}>
-            <SkillBox />        
+        <div className={styles.grid}>
+            <div className={styles.container}>
+                <SkillBox />        
+            </div>
         </div>
     );
 }

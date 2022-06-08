@@ -1,32 +1,47 @@
+
+.grid {
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    height: 65vh;
+}
+
 .logo {
-    width: 50px;
-    height: auto;
+    width: 60%;
+    height: 60%;
+    margin-top: 3px;
 }
 
 .logoContainer {
     width: 75%;
+    margin-left: 4%;
 }
 
 .box {
     height: 75px;
     width: 75px;
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
-    margin: 2% 10% 2% 10%;
+    margin: 0% 3% 4% 3%;
     float: left;
 }
 
 .container {
     margin-top: 25px;
     display: grid;
-    align-items: center;
+    align-items: end;
     justify-items: center;
     width: 800px;
     height: 475px;
     border-radius: .5rem;
-    padding: 1rem;
     border-width: .5rem;
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
     background-color: #CCCCCC;
     backface-visibility: hidden;
     
+}
+
+.title {
+    margin-left: -32px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
