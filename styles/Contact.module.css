@@ -1,12 +1,11 @@
 .container {
-    margin-top: 25px;
+    margin-top: 150px;
     display: grid;
     align-content: center;
     justify-content: center;
-    width: 800px;
-    height: 475px;
+    width: 600px;
+    height: 375px;
     border-radius: .5rem;
-    padding: 1rem;
     border-width: .5rem;
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
     background-color: #CCCCCC;
@@ -110,7 +109,7 @@
 
   .grid {
     display: grid;
-    align-items: end;
+    align-items: center;
     justify-items: center;
-    height: 65vh;
+    
 }

@@ -12,7 +12,6 @@ export const Projects = () => {
   
     return (
       <div className={styles.grid}>
-        <div className={styles.popup}>Here are the current itterations of my personal projects. Hit the more info button to discover how I created them, along with my personal process and source code.</div>
         <div className={styles.container}>
         <h1 className={styles.title}>Face Finder</h1>
         <div className={styles.pill}>
@@ -106,8 +105,11 @@ export const Projects = () => {
                 <a target="_blank" href='https://github.com/WattBowers/Boredom-Butler'><button className={styles.modalButton}>Github Repo</button></a>
                 <button className={ `${ styles.marginLeft } ${ styles.modalButton }` } onClick={() => setBoredomModal(false)}> Close</button>
               </ReactModal>
-            </div>   
+            </div>  
          </div>
+         </div>
+        <div className={styles.smallCenter}>
+          <p className={styles.description}>Here are the current itterations of my personal projects. Hit the more info button to discover how I created them, along with my personal process and source code.</p>
         </div>
     </div>
   </div>

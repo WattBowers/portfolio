@@ -7,10 +7,10 @@
 .container {
     margin-top: 25px;
     display: grid;
-    align-content: center;
+    align-content: start;
     justify-content: center;
     width: 800px;
-    height: 475px;
+    height: 550px;
     border-radius: .5rem;
     padding: 1rem;
     border-width: .5rem;
@@ -24,6 +24,13 @@
 .center {
     display: grid;
     justify-content: center;
+    align-items: center;
+}
+
+.smallCenter {
+    
+    display: grid;
+    justify-items: center;
     align-items: center;
 }
 
@@ -130,15 +137,9 @@
     padding-bottom: 2rem;
 }
 
-.popup {
-    position: absolute;
-    left: 10px;
-    top: 98px;
-    color: #CCCCCC;
-    width: 20vw;
-    height: 500px;
-    opacity: 1;
-    border-radius: .5rem;
-    font-size: 1rem;
-  }
+.description {
+    color: black;
+    font-size: 1.2rem;
+    width: 80%;
+}
   
