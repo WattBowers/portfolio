@@ -46,7 +46,7 @@ export const Projects = () => {
         <h3 className={styles.title}>Face Finder</h3>
         <p className={styles.padding}>This is my first big project using react that I completed front to back. The idea
              came from the great teachers at ZTM on Udemy. The project is straightforward, but 
-             I learned a great deal about how React interacts with API's, external libraries, and 
+             I learned a great deal about how React interacts with API&apos;s, external libraries, and 
              Node. This is a work in progress, as there are a couple more features I am looking to add in the next few months. 
              
              <br /><br />
