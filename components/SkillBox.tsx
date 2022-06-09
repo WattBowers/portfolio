@@ -41,7 +41,7 @@ const SkillBox = () => {
             }
 
             <h3 className={styles.title}>Resume</h3>
-            <p>Click the button below to download a copy of my resume. There you will find a full breakdown of my previous expiriance, along with more information about some of the many non-tech attributes that I bring to the table.</p>
+            <p>Click the button below to download a copy of my resume. There you will find a full breakdown of my previous experience, along with more information about some of the many non-tech attributes that I bring to the table.</p>
             <a href='https://docs.google.com/document/d/e/2PACX-1vQGChfx6xYrqRy3NpsiER18Lks_NS1q06n3ViofXMHX-vpfN2E0RHKDtR_6xBb_lQ/pub'><button className={styles.button}>Go</button></a>
         </div>
         
