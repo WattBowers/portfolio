@@ -24,7 +24,7 @@ export const Contact = () => {
         try {
           if(email.includes('@') && email.includes('.')) {
             const result = await axios.post(formSparkUrl, payload)
-            window.alert("Your message has been sent, thank you!")
+            window.alert('Your message has been sent, thank you!')
             setEmail('')
             setMessage('')
           }
