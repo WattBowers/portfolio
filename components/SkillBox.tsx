@@ -33,7 +33,7 @@ const SkillBox = () => {
         <div className={styles.logoContainer}>
             <h3 className={styles.title}>Technology Skills</h3>
             {keys.map((element, i) => {
-               return <div className={styles.box}>
+               return <div key={i} className={styles.box}>
                     <div key={i}>{keys[i]}</div>
                     <img key={i} className={styles.logo} alt={'logo' + i} src={image[i].src} />
                 </div>
