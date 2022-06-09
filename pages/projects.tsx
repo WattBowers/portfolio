@@ -53,8 +53,8 @@ export const Projects = () => {
              The Frontend is built using React, and the Clarifai Api. The backend is built with Node.js, MySQL 
              for the database, and hosted using Heroku. Feel free to checout the source code on Github,
              or the live site. </p>
-            <a className={styles.marginRight} target="_blank" href='https://face-finding-project.herokuapp.com/'><button className={styles.modalButton}>Live site</button></a>
-            <a className='ml1 mr1' target="_blank" href='https://github.com/WattBowers/facerecognizer-front'><button className={styles.modalButton}>Github Repo</button></a>
+            <a className={styles.marginRight} rel="noreferrer" target="_blank" href='https://face-finding-project.herokuapp.com/'><button className={styles.modalButton}>Live site</button></a>
+            <a className='ml1 mr1' rel="noreferrer" target="_blank" href='https://github.com/WattBowers/facerecognizer-front'><button className={styles.modalButton}>Github Repo</button></a>
             <button className={ `${ styles.marginLeft } ${ styles.modalButton }` } onClick={() => setShowModal(false)}> Close</button>
         </ReactModal>
 
@@ -101,8 +101,8 @@ export const Projects = () => {
                   <br /><br />
                   The project is built using React, and the ImDb API.
                 </p>
-                <a className={styles.marginRight} target="_blank" href='https://the-boredom-butler.herokuapp.com/'><button className={styles.modalButton}>Live site</button></a>
-                <a target="_blank" href='https://github.com/WattBowers/Boredom-Butler'><button className={styles.modalButton}>Github Repo</button></a>
+                <a className={styles.marginRight} rel="noreferrer" target="_blank" href='https://the-boredom-butler.herokuapp.com/'><button className={styles.modalButton}>Live site</button></a>
+                <a target="_blank" rel="noreferrer" href='https://github.com/WattBowers/Boredom-Butler'><button className={styles.modalButton}>Github Repo</button></a>
                 <button className={ `${ styles.marginLeft } ${ styles.modalButton }` } onClick={() => setBoredomModal(false)}> Close</button>
               </ReactModal>
             </div>  
