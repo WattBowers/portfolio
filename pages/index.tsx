@@ -22,8 +22,8 @@ const router = useRouter()
       <img className={styles.profile} src={Profile.src}/>
       <div className={styles.home}>
         <h1 className={styles.huge}>Welcome </h1>
-        <h1 className={styles.medium}> I'm Jackson and I'm a front end web developer. Use the navigation bar at the top of the site to move around and find out about me </h1>
-        <div className={styles.popup}>Use the navbar up top to move around the website. There you will find more information about me and my work.</div>
+        <h1 className={styles.medium}> I'm Jackson and I'm a front end web developer. Use the navigation bar at the top of the site to move around and find out more about me </h1>
+        
       </div>
     </div>
     </div>
