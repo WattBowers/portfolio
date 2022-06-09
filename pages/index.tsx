@@ -19,7 +19,7 @@ const router = useRouter()
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.grid}>
-      <img className={styles.profile} src={Profile.src}/>
+      <img className={styles.profile} src={Profile.src} alt='Profile'/>
       <div className={styles.home}>
         <h1 className={styles.huge}>Welcome </h1>
         <h1 className={styles.medium}> I'm Jackson and I'm a front end web developer. Use the navigation bar at the top of the site to move around and find out more about me </h1>

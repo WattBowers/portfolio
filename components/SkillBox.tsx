@@ -34,8 +34,8 @@ const SkillBox = () => {
             <h3 className={styles.title}>Technology Skills</h3>
             {keys.map((element, i) => {
                return <div className={styles.box}>
-                    <div>{keys[i]}</div>
-                    <img className={styles.logo} src={image[i].src} />
+                    <div key={i}>{keys[i]}</div>
+                    <img key={i} className={styles.logo} alt={'logo' + i} src={image[i].src} />
                 </div>
                 })
             }
