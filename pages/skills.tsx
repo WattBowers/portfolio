@@ -1,5 +1,5 @@
 import styles from '../styles/Skills.module.css';
-import SkillBox from '../components/skillBox';
+import SkillBox from '../components/SkillBox';
 
 
 const Skills = () => {
