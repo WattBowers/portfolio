@@ -37,8 +37,9 @@ export const Projects = () => {
                     height: '400px',
                     width: '700px',
                     position: 'absolute',
-                    left: '31.5%',
-                    top: '25%'
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)'
                     
                 }
             }}
@@ -84,8 +85,9 @@ export const Projects = () => {
                     height: '400px',
                     width: '700px',
                     position: 'absolute',
-                    left: '31.5%',
-                    top: '25%'
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)'
                     
                 }
                 }}
