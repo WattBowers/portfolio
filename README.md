@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Boredom Butler
 
-## Getting Started
+## Details
 
-First, run the development server:
+This project is built using React and the ImDb Api, it is hosted using Heroku. This app was a project Idea I had after finding the ImDb api. Search by decade, ImDb rating, and genre, and the website will give you a TV or movie recomendation. Along with a brief description, and a list of actors and the director associated with the film.  
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### What I learned
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+My biggest take away from this project was how to write React in a more modern style. Instead of using the older Class based components I decided to learn how to use hooks to clean up my code, and create more readable, and navigatable code. I also learned a lot about using git and how useful breaking up even small projects into different branches can make saving work along different levels of progress a breeze. Lastly, I discovered why reactive code is so important. The website still needs modifications to increase its ease of use on mobile, however ive learned a lot about using CSS media queries and proper sizing to change layouts depending on screen size. 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Getting this to run
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This website is hosted on Heroku. Feel free to clone the code and see how I built it. you will need your own imDb key to use the api. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+If you just want to play around in the live site here is the link: [https://face-finding-project.herokuapp.com/ ](https://the-boredom-butler.herokuapp.com/)
 
-## Learn More
+Because I am using the free Heroku service the website can take some time to load. You may have to wait up to ten seconds depending on your connection. 
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
