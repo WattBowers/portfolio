@@ -14,7 +14,7 @@ export const Projects = () => {
       <div className={styles.grid}>
         <div className={styles.container}>
         <div className={styles.smallCenter}>
-          <p className={styles.description}>Here are the current itterations of my personal projects. Hit the more info button to discover how I created them, along with my personal process and source code.</p>
+          <p className={styles.description}>Here are the current iterations of my personal projects. Hit the more info button to discover how I created them, along the source code</p>
         </div>
         <h1 className={styles.title}>Face Finder</h1>
         <div className={styles.pill}>
