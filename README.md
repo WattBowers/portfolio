@@ -1,34 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+## Details
 
-First, run the development server:
+This project is built using Next.Js and typescript. It is a place to link to all of my socials along with my github and a contact form that leads to my email. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This is the updated version of the website. You can find the live site here: https://jackson-watt-bowers-172z2raxh-wattbowers.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### What I learned
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+How time flies. I started this journey in software development what feels like only a couple of months ago. Completing this project felt like a large milestone in that journey. In switching to Typescript and Next.Js I felt my more competency grow rapidly, my ability to read and understand complex topics in documentation, and applying them to my personal websites has been a real joy to experience. In completing this project I took some time to learn how Next.Js implements routing, and how the server side rendering can be beneficial in creating smooth, seamless user experiences. Typescript also took me some time to get my head around. The basics of the language are straight forward, but when they are implemented with React and Next.Js the types can become slightly daunting. Learning how to implement well typed code in React is a skill that will be very useful moving forward. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Getting this to run
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This website is hosted usign Vercel, however feel free to clone the github repository and see whats going on under the hood.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
