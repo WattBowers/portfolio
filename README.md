@@ -4,7 +4,7 @@
 
 This project is built using Next.Js and typescript. It is a place to link to all of my socials along with my github and a contact form that leads to my email. 
 
-This is the updated version of the website. You can find the live site here: https://jackson-watt-bowers-172z2raxh-wattbowers.vercel.app/
+This is the updated version of the website. You can find the live site here: jackson-watt-bowers.vercel.app
 
 ### What I learned
 
