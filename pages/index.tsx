@@ -23,9 +23,9 @@ const router = useRouter()
       </div>  
       <div className={styles.gridTwo}>  
         <div className={styles.home}>
-          <h4 className={styles.greeting}>Hello! I'm</h4>
+          <h4 className={styles.greeting}>Hello! I&apos;m</h4>
           <h1 className={styles.medium}>Jackson Watt-Bowers -- Web Developer</h1>
-          <p className={styles.text}>I'm a front-end dev who uses Next, Typescript, and React to build intuitive applications. I bring my strong leadership and communication skills from my experience as a server and theatre-maker to be an effective team-member.</p>
+          <p className={styles.text}>I&apos;m a front-end dev who uses Next, Typescript, and React to build intuitive applications. I bring my strong leadership and communication skills from my experience as a server and theatre-maker to be an effective team-member.</p>
         </div>
       </div>
     </div>
