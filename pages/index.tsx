@@ -18,15 +18,18 @@ const router = useRouter()
         <meta name="description" content="A portfolio page build with Next.js and typescript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.grid}>
-      <img className={styles.profile} src={Profile.src} alt='Profile'/>
-      <div className={styles.home}>
-        <h1 className={styles.huge}>Welcome </h1>
-        <h1 className={styles.medium}> I&apos;m Jackson and I&apos;m a front end web developer. Use the navigation bar at the top of the site to move around and find out more about me </h1>
-        
+      <div className={styles.gridOne}>
+        <img className={styles.profile} src={Profile.src} alt='Profile'/>
+      </div>  
+      <div className={styles.gridTwo}>  
+        <div className={styles.home}>
+          <h4 className={styles.greeting}>Hello! I'm</h4>
+          <h1 className={styles.medium}>Jackson Watt-Bowers -- Web Developer</h1>
+          <p className={styles.text}>I'm a front-end dev who uses Next, Typescript, and React to build intuitive applications. I bring my strong leadership and communication skills from my experience as a server and theatre-maker to be an effective team-member.</p>
+        </div>
       </div>
     </div>
-    </div>
+    
   )
 }
 

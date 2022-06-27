@@ -111,5 +111,10 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    height: 65vh;
+    height: 75vh;
+    background-image: url(./Images//bg-elements-header-edited.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
 }

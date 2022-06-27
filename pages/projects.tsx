@@ -13,10 +13,11 @@ export const Projects = () => {
     return (
       <div className={styles.grid}>
         <div className={styles.container}>
+          <h1 className={styles.title}>Projects</h1>
         <div className={styles.smallCenter}>
           <p className={styles.description}>Here are the current iterations of my personal projects. Hit the more info button to discover how I created them, along the source code</p>
         </div>
-        <h1 className={styles.title}>Face Finder</h1>
+        <h2 className={styles.title}>Face Finder</h2>
         <div className={styles.pill}>
           <div className={styles.pill1}>
             <div className={styles.recognizerbackground}></div>
@@ -25,7 +26,7 @@ export const Projects = () => {
             <h5 className={styles.text}>Using the face detecton api from Clarify. Login to this tool to find a face in an image.</h5>
           </div>
           <div className={styles.pill3}>
-          <button className={styles.button} onClick={() => setShowModal(true)}> More info</button>
+          <button className={styles.button} onClick={() => setShowModal(true)}>More info</button>
         
         
         <ReactModal 
@@ -65,7 +66,7 @@ export const Projects = () => {
 
           </div>
         </div>
-        <h1 className={styles.title}>The Boredom Butler</h1>
+        <h2 className={styles.title}>The Boredom Butler</h2>
         <div className={styles.pill}>
           <div className={styles.pill1}>
             <div className={styles.butlerbackground}></div>

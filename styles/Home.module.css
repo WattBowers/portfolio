@@ -1,28 +1,37 @@
 .profile {
   border-radius: 1%;
   border: 5px solid #062F5D;
-  width: 35%;
+  width: 60%;
   height: auto;
   user-select: none;
   margin-top: 25px;
+  
 }
 
 .home {
-  float: right;
-  width: 40%;
-  
+  width: 90%;
+  border-radius: .5rem;
+  padding: 3px 10px 3px 10px;
+  border-width: .5rem;
+  box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+  background-color: #CCCCCC;
+  backface-visibility: hidden;
 }
 
-.huge {
-  font-size: 3rem;
-  font-weight: 900;
-  color: #EEEEEE; 
-  
+.greeting {
+  font-size: 1rem;
+  text-align: start;
+  margin-left: 30px;
+  margin-bottom: -10px;
 }
 
 .medium {
   font-size: 1.4rem;
-  color: #EEEEEE;
+  text-align: start;
+}
+
+.text {
+  text-align: start;
 }
 
 
@@ -36,9 +45,25 @@
   display: none;
 }
 
-.grid {
-  display: grid;
-  justify-items: center;
+.gridOne {
+  display: inline-block;
+  width: 60%;
+}
+
+.gridTwo {
+  display: inline-block;
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  background-image: url(./Images//bg-elements-header-edited.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 75vh;
 }
 
