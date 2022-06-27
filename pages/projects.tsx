@@ -115,7 +115,6 @@ export const Projects = () => {
          </div>
         
     </div>
-  </div>
   )
 }
 
