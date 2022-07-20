@@ -10,8 +10,7 @@ import Sql from '../pages/Images/Sql.png';
 import Python from '../pages/Images/Python.png';
 import Git from '../pages/Images/Git.png';
 
-
-
+//Use this object to add or replace any skills
 const skills = {
     React: React,
     Typescript: Typescript,

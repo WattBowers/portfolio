@@ -4,8 +4,6 @@ import Resume from '../components/Resume';
 
 
 const Skills = () => {
-
-
     return (
         <div className={styles.grid}>
             <div className={styles.container}>

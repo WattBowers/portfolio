@@ -14,7 +14,8 @@ export const Contact = () => {
         event.preventDefault();
         await postSubmission();
     }
-
+    
+    //This function sends email through formSpark, making sure that email is most likely valid
     const postSubmission = async () => {
         const payload = {
             message: message,
