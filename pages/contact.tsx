@@ -20,13 +20,13 @@ export const Contact = () => {
             message: message,
             email: email
         };
-
+          
         try {
-          if(email.includes('@') && email.includes('.')) {
-            const result = await axios.post(formSparkUrl, payload)
-            window.alert('Your message has been sent, thank you!')
-            setEmail('')
-            setMessage('')
+            if(email.includes('@') && email.includes('.com' || '.ca')) {
+              const result = await axios.post(formSparkUrl, payload)
+              window.alert('Your message has been sent, thank you!')
+              setEmail('')
+              setMessage('')
           }
           else {
             window.alert('please enter a valid email address');
@@ -39,41 +39,38 @@ export const Contact = () => {
     const emailChange = (event: ChangeEvent<HTMLInputElement>) => {
         
         setEmail(event.currentTarget.value)
-        
     }
 
     const messageChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
         setMessage(event.currentTarget.value);
-        
     }
 
     return (
       <div className={styles.grid}>
-          <div className={styles.container}>
-            <main className={styles.main}>
-              <form className={styles.form}>
-                <fieldset className={styles.fieldset}>
-                  <legend className={styles.legend}>Contact Form</legend>
-                  <div className={styles.marginTop}>
-                    <label className={styles.label}>Return email</label>
-                    <input onChange={emailChange} value={email} className={styles.input} type="email" name="email-address"  id="email-address"/>
-                  </div>
-                  <div className={styles.marginVertical}>
+        <div className={styles.container}>
+          <main className={styles.main}>
+            <form className={styles.form}>
+              <fieldset className={styles.fieldset}>
+                <legend className={styles.legend}>Contact Form</legend>
+                <div className={styles.marginTop}>
+                  <label className={styles.label}>Return email</label>
+                  <input onChange={emailChange} value={email} className={styles.input} type="email" name="email-address"  id="email-address"/>
+                </div>
+                <div className={styles.marginVertical}>
                   <label  className={styles.label}>Message</label>
                   <textarea onChange={messageChange} value={message} placeholder={'Feel free to send me a message about any inquiries.'} cols={55} rows={5} id="comment" name="comment" className={styles.textarea} aria-describedby="comment-desc"></textarea>
-                  </div>
-                  
-                </fieldset>
-                <div>
-                  <input onClick={submitForm} 
-                        className={styles.button} 
-                        type="submit" value="Send"
-                        />
                 </div>
-              </form>
-            </main>
-            </div>
-          </div>
+              </fieldset>
+              <div>
+                <input onClick={submitForm} 
+                      className={styles.button} 
+                      type="submit" value="Send"
+                  />
+              </div>
+            </form>
+          </main>
+        </div>
+      </div>
   )
 }
 
