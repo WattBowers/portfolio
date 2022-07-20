@@ -7,7 +7,8 @@ body {
   font-family: 'Lato', sans-serif;
   background: #003566;
   background-image: linear-gradient(49deg,#003566,#006ad1);
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 
